@@ -30,8 +30,8 @@ stages:
             # Write your commands here
             
             echo 'Hello world2' 
-
-- stage: stage2
+stages: 
+  - stage: stage2
     jobs:
     - job: job3
       steps:
