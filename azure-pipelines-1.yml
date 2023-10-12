@@ -13,6 +13,7 @@ stages:
   - stage: stage1
     jobs:
     - job: job1
+      dependsOn: job2
       steps:
       - task: Bash@3
         inputs:
